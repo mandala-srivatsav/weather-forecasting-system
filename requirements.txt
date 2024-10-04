@@ -1,1 +1,8 @@
 Flask==2.1.1
+flask               # Web framework for creating APIs
+requests            # HTTP requests to external APIs (e.g., for weather data)
+twilio              # For sending SMS alerts via Twilio
+pandas              # For data manipulation and handling
+flask_cors          # To handle cross-origin resource sharing for web API
+geopy               # For geolocation services (detecting user location)
+gunicorn            # Production server for Flask (used in Render deployment)
